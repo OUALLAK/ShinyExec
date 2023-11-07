@@ -12,7 +12,8 @@ setwd("C:/Users/Khadija Oualla/Desktop/M1_SSD/Logiciel Spécialisé R/Package fi
 build()
 
 
-install.packages("https://github.com/OUALLAK/ShinyExec/blob/main/ShinyExec_0.1.0.tar.gz")
+
+install.packages("https://raw.githubusercontent.com/OUALLAK/ShinyExec/main/ShinyExec_0.1.0.tar.gz", repos = NULL, type = "source")
 
 
 library("ShinyExec")

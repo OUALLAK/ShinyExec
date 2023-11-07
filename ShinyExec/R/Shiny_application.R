@@ -6,7 +6,7 @@
 #' @examples
 #' shiny_application()
 shiny_application <- function() {
-  appDir <- system.file("hackathon_application", package = "hackathon")
+  appDir <- system.file("ShinyExec_application", package = "ShinyExec")
   shiny::runApp(appDir, host='0.0.0.0', port=3838)
 }
 
