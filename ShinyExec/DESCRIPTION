@@ -1,0 +1,16 @@
+Package: ShinyExec
+Type: Package
+Title: Lanceur d'Application Shiny
+Version: 0.1.0
+Author: Khadija , Romane et Khaoula
+Maintainer: Khadija OUALLA <khadijaoualla1717@gmail.com>
+Description: Ce package fournit une interface simple pour lancer des applications Shiny 
+            intégrées directement à partir de R. Il est conçu pour faciliter le démarrage 
+            des applications Shiny pour les utilisateurs finaux sans nécessiter une 
+            configuration complexe ou des connaissances en déploiement web. Utilisez 
+            simplement la fonction 'runApp()' pour démarrer votre application avec une 
+            seule commande.
+License: GPL-3 | file LICENSE
+Encoding: UTF-8
+LazyData: true
+
